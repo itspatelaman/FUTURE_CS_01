@@ -116,7 +116,7 @@ SQL injection due to unsanitized input in search query, leading to potential dat
 
 **🖼️ Visual Evidence:**
 
-![SQL INJECTION](SQLI.png)
+![SQL INJECTION](Screenshots/SQLI.png)
 
 ---
 
@@ -142,7 +142,7 @@ Application responds to cloud metadata endpoint requests, which could lead to se
 
 **🖼️ Visual Evidence:**
 
-![Cloud Metadata Exposure](cloud_data.png)
+![Cloud Metadata Exposure](Screenshots/cloud_data.png)
 ---
 
 ## 🛑 Vulnerability #3: Absence of Anti-CSRF Tokens
@@ -167,7 +167,7 @@ No CSRF token found in sensitive forms; attacker could trick users into performi
 
 **🖼️ Visual Evidence:**
 
-![Absence of Anti-CSRF Tokens](Anti-CSRF.png)
+![Absence of Anti-CSRF Tokens](Screenshots/Anti-CSRF.png)
 ---
 
 ## 🛑 Vulnerability #4: Private IP Disclosure
@@ -192,7 +192,7 @@ Response exposes internal IPs like `127.0.0.1`, `192.168.99.100` — aids attack
 
 **🖼️ Visual Evidence:**
 
-![Private IP Disclosure](IP_Disclosure.png)
+![Private IP Disclosure](Screenshots/IP_Disclosure.png)
 ---
 
 ## 🛑 Vulnerability #5: Cross-Domain Misconfiguration (CORS)
@@ -217,7 +217,8 @@ Response exposes internal IPs like `127.0.0.1`, `192.168.99.100` — aids attack
 
 **🖼️ Visual Evidence:**
 
-![cross-Domain Misconfiguration (CORS)](cross_domain.png)
+![cross-Domain Misconfiguration (CORS)](Screenshots/cross_domain.png)
+
 ---
 
 ## 📊 Risk Assessment
